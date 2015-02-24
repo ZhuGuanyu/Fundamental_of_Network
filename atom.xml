@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-02-24T16:41:13-05:00</updated>
+  <updated>2015-02-24T17:13:45-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
