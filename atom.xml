@@ -4,7 +4,7 @@
   <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-02-25T03:02:03-05:00</updated>
+  <updated>2015-02-25T08:33:43-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -12,32 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[3 test]]></title>
-    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/25/3-test/"/>
-    <updated>2015-02-25T02:38:02-05:00</updated>
-    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/25/3-test</id>
-    <content type="html"><![CDATA[<p>44445667</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[second test]]></title>
-    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/25/second-test/"/>
-    <updated>2015-02-25T01:40:17-05:00</updated>
-    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/25/second-test</id>
-    <content type="html"><![CDATA[<p>You are sber.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Just for Test]]></title>
-    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/24/just-for-test/"/>
-    <updated>2015-02-24T17:34:12-05:00</updated>
-    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/24/just-for-test</id>
-    <content type="html"><![CDATA[<p>This is for test content.</p>
-]]></content>
-  </entry>
   
 </feed>
