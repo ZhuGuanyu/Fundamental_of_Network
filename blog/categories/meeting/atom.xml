@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
-  <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
+  <title><![CDATA[Category: meeting | CSE534 Fundamental of Network Project]]></title>
+  <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/meeting/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
   <updated>2015-02-24T19:41:30-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
