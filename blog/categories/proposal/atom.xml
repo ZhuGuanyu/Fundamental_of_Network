@@ -4,7 +4,7 @@
   <title><![CDATA[Category: proposal | CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/proposal/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-02-26T04:58:33-05:00</updated>
+  <updated>2015-02-26T04:59:37-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -20,10 +20,14 @@
     <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/15/submit-proposal</id>
     <content type="html"><![CDATA[<p>Today We submitted <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/proposal.pdf" style="color:blue">our proposal</a>. But we still had some problems about this project.</p>
 
-<p>Questions about the real-time
-* Outage mail is sent in real-time by someone?
-* If the outage is recovered right now, so what should I do for the diagnostic in this situation?
-* what’s the meaning of real-time.</p>
+<p>Questions about the real-time</p>
+
+<ul>
+<li>Outage mail is sent in real-time by someone?</li>
+<li>If the outage is recovered right now, so what should I do for the diagnostic in this situation?</li>
+<li>what’s the meaning of real-time.</li>
+</ul>
+
 ]]></content>
   </entry>
   
