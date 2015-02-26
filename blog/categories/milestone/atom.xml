@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
-  <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
+  <title><![CDATA[Category: milestone | CSE534 Fundamental of Network Project]]></title>
+  <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/milestone/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
   <updated>2015-02-26T04:58:33-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
@@ -24,15 +24,6 @@
 * Outage mail is sent in real-time by someone?
 * If the outage is recovered right now, so what should I do for the diagnostic in this situation?
 * what’s the meaning of real-time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Discuss which project should we choose]]></title>
-    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/11/discuss-which-project-should-we-choose/"/>
-    <updated>2015-02-11T04:22:11-05:00</updated>
-    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/11/discuss-which-project-should-we-choose</id>
-    <content type="html"><![CDATA[<p>Today We discussed the projects provided by the professor. We went through all the topics and talked about every details for each project. Based on our interests, we finaly picked out topic 5 and topic 8.(Refer to <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/CSE534Projects.pdf" style="color:blue">Projects</a>). Then we found our professor, and talked with her to know what these two projects do. At last, we all took the topic 8(mailing list outage) as our project topic.</p>
 ]]></content>
   </entry>
   
