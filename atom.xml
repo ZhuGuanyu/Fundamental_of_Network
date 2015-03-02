@@ -4,7 +4,7 @@
   <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-03-02T15:35:48-05:00</updated>
+  <updated>2015-03-02T15:38:30-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -29,7 +29,7 @@
 </ul>
 
 
-<p>This project is based on this Paper <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/PAM2015" style="color:blue">Internet Outages, the Eyewitness Accounts: Analysis of the Outages Mailing List</a>.</p>
+<p>This project is based on this Paper <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/PAM2015.pdf" style="color:blue">Internet Outages, the Eyewitness Accounts: Analysis of the Outages Mailing List</a>.</p>
 ]]></content>
   </entry>
   
