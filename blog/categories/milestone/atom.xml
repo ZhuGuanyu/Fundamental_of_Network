@@ -4,7 +4,7 @@
   <title><![CDATA[Category: milestone | CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/milestone/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-02-26T13:43:54-05:00</updated>
+  <updated>2015-03-02T15:23:24-05:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -28,6 +28,8 @@
 <li>what’s the meaning of real-time.</li>
 </ul>
 
+
+<p>This project is based on this Paper <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/proposal.pdf" style="color:blue">Internet Outages, the Eyewitness Accounts: Analysis of the Outages Mailing List</a>.</p>
 ]]></content>
   </entry>
   
