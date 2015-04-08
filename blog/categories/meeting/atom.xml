@@ -4,7 +4,7 @@
   <title><![CDATA[Category: meeting | CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/meeting/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-04-08T17:09:10-04:00</updated>
+  <updated>2015-04-08T17:27:14-04:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Add tf-idf function module and using NLTK]]></title>
+    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/24/add-tf-idf-function-module-and-using-nltk/"/>
+    <updated>2015-03-24T13:17:10-04:00</updated>
+    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/24/add-tf-idf-function-module-and-using-nltk</id>
+    <content type="html"><![CDATA[<p>This week we add tf-idf function module and using NLTK to help us lemmatize the text.</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'>  <span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+</span><span class='line'>    <span class="n">text</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span> <span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">tokens</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">tokenize</span><span class="o">.</span><span class="n">TreebankWordTokenizer</span><span class="p">()</span><span class="o">.</span><span class="n">tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</span><span class='line'>    <span class="c">#print tokens&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="c"># lemmatize words. try both noun and verb lemmatizations</span>
+</span><span class='line'><span class="n">lmtzr</span> <span class="o">=</span> <span class="n">WordNetLemmatizer</span><span class="p">()</span>
+</span><span class='line'><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)):</span>
+</span><span class='line'>    <span class="c">#tokens[i] = tokens[i].strip(&quot;&#39;&quot;)</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">lang</span> <span class="o">!=</span> <span class="s">&#39;english&#39;</span><span class="p">:</span>
+</span><span class='line'>        <span class="k">if</span> <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">in</span> <span class="n">lang_dictionary</span><span class="p">:</span>
+</span><span class='line'>            <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">lang_dictionary</span><span class="p">[</span><span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">res</span> <span class="o">=</span> <span class="n">lmtzr</span><span class="o">.</span><span class="n">lemmatize</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span><span class='line'>        <span class="k">if</span> <span class="n">res</span> <span class="o">==</span> <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+</span><span class='line'>            <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">lmtzr</span><span class="o">.</span><span class="n">lemmatize</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s">&#39;v&#39;</span><span class="p">)</span>
+</span><span class='line'>        <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>            <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">res</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># don&#39;t return any single letters</span>
+</span><span class='line'><span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tokens</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="mi">1</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">t</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()]</span>
+</span><span class='line'><span class="k">return</span> <span class="n">tokens</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deal with problems last week and New tasks]]></title>

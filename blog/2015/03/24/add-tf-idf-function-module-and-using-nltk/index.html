@@ -5,7 +5,7 @@
 	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
 	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
-	<title>Real-time measurement for mailing list outage  | CSE534 Fundamental of Network Project</title>
+	<title>Add tf-idf function module and using NLTK  | CSE534 Fundamental of Network Project</title>
 
 <meta name="author" content="Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun"> 
 
@@ -31,7 +31,7 @@
 20
 21
 22
-23 &hellip;"> <meta name="keywords" content="">
+23 def &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="/fundamental_of_network/atom.xml" rel="alternate" title="CSE534 Fundamental of Network Project" type="application/atom+xml">
@@ -146,18 +146,9 @@ $(document).ready(
 
 </header>
 
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/fundamental_of_network/blog/2015/03/24/add-tf-idf-function-module-and-using-nltk/">
-		
-			Add Tf-idf Function Module and Using NLTK</a>
-	</h2>
-	<div class="entry-content">
-		<p>This week we add tf-idf function module and using NLTK to help us lemmatize the text.</p>
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Add Tf-idf Function Module and Using NLTK</h2>
+	<div class="entry-content"><p>This week we add tf-idf function module and using NLTK to help us lemmatize the text.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -207,10 +198,7 @@ $(document).ready(
 </span><span class='line'>    <span class="k">return</span> <span class="n">tokens</span>
 </span></code></pre></td></tr></table></div></figure>
 
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -239,215 +227,25 @@ $(document).ready(
 	
 </div></article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks/">
-		
-			Deal With Problems Last Week and New Tasks</a>
-	</h2>
-	<div class="entry-content">
-		<h3>What we have done:</h3>
-
-<ul>
-<li>Combinated the same threads(original posts and reply posts)</li>
-<li>We used python to remove the punctations and some unrelated words(stopwords). The origal stopwords what we are using is <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/stop_words_en.txt" style="color:blue">here</a>.</li>
-</ul>
-
-
-<h3>Problems and New tasks:</h3>
-
-<p>The stopwords are not enough. We should also remove the people names, places names, etc. So we summary the unrelated words to the following 9 categories.</p>
-
-<ol>
-<li>Spurious data.</li>
-<li>Links. Then we ignored the url, website links and email links in the posts.</li>
-<li>Punctuations and Numbers.    <br/>
-
-		
-		<a href="/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks/" class="more-link">Read on &rarr;</a>
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-09T14:36:39-04:00" pubdate data-updated="true"></time></div>
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
 	
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
 
-	
-</div></article>
 
 
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09/">
-		
-			Task for This Week(03/02-03/09)</a>
-	</h2>
-	<div class="entry-content">
-		<p>Today is our team regular meeting.  <br/>
-In this meeting, we arrage the detail tasks for this week. In this week, we will try to complete the first two steps of <strong>Data Preprocessing</strong>.</p>
-
-<ul>
-<li><p>Collate threads.  <br/>
-We have contacted with the author of our reference paper, one of Phd students in our university, he shared with us some experience about this project and give us some guide, here we want to say thanks for him. We will classify these dataset at the level of threads.</p></li>
-<li><p>Remove spurious data and stop-words
-In this part, we will firstly try to learn some basic tools.
-What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</p></li>
-</ul>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-02T17:36:39-05:00" pubdate data-updated="true"></time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/fundamental_of_network/blog/2015/02/15/submit-proposal/">
-		
-			Submit Proposal</a>
-	</h2>
-	<div class="entry-content">
-		<p>Today We submitted <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/proposal.pdf" style="color:blue">our proposal</a>. But we still had some problems about this project.</p>
-
-<p>Questions about the real-time</p>
-
-<ul>
-<li>Outage mail is sent in real-time by someone?</li>
-<li>If the outage is recovered right now, so what should I do for the diagnostic in this situation?</li>
-<li>what’s the meaning of real-time.</li>
-</ul>
-
-
-<p>This project is based on this Paper <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/PAM2015.pdf" style="color:blue">Internet Outages, the Eyewitness Accounts: Analysis of the Outages Mailing List</a>.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-15T04:52:11-05:00" pubdate data-updated="true"></time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>, <a class='category' href='/fundamental_of_network/blog/categories/milestone/'>milestone</a>, <a class='category' href='/fundamental_of_network/blog/categories/proposal/'>proposal</a>
-
+</section>
 </div>
-
-
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/fundamental_of_network/blog/2015/02/11/discuss-which-project-should-we-choose/">
-		
-			Discuss Which Project Should We Choose</a>
-	</h2>
-	<div class="entry-content">
-		<p>Today We discussed the projects provided by the professor. We went through all the topics and talked about every details for each project. Based on our interests, we finaly picked out topic 5 and topic 8.(Refer to <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/CSE534Projects.pdf" style="color:blue">Projects</a>). Then we found our professor, and talked with her to know what these two projects do. At last, we all took the topic 8(mailing list outage) as our project topic.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-02-11T04:22:11-05:00" pubdate data-updated="true"></time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
-</div>
-
-
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/fundamental_of_network/archives">Blog Archives</a></div>
-</nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2015
 
     Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun
@@ -468,7 +266,10 @@ CSE 534 Fundamental of Network
       var disqus_shortname = 'cse534fundamentalofnetworkproject';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/24/add-tf-idf-function-module-and-using-nltk/';
+        var disqus_url = 'http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/24/add-tf-idf-function-module-and-using-nltk/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
