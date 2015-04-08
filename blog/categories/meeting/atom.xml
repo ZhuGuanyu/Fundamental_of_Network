@@ -4,7 +4,7 @@
   <title><![CDATA[Category: meeting | CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/meeting/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-04-08T18:45:13-04:00</updated>
+  <updated>2015-04-08T18:48:29-04:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -42,9 +42,7 @@
 <span class='line-number'>18</span>
 <span class='line-number'>19</span>
 <span class='line-number'>20</span>
-<span class='line-number'>21</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'>  <span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
-</span><span class='line'><span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
 </span><span class='line'>    <span class="n">text</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span> <span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 </span><span class='line'>    <span class="n">tokens</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">tokenize</span><span class="o">.</span><span class="n">TreebankWordTokenizer</span><span class="p">()</span><span class="o">.</span><span class="n">tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 </span><span class='line'>    <span class="c">#print tokens</span>
