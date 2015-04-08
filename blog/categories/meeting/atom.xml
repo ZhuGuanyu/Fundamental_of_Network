@@ -4,7 +4,7 @@
   <title><![CDATA[Category: meeting | CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/meeting/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-04-08T15:42:04-04:00</updated>
+  <updated>2015-04-08T16:44:01-04:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -12,6 +12,90 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deal with problems last week and New tasks]]></title>
+    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks/"/>
+    <updated>2015-03-09T14:36:39-04:00</updated>
+    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks</id>
+    <content type="html"><![CDATA[<h3>What we have done:</h3>
+
+<ul>
+<li>Combinated the same threads(original posts and reply posts)</li>
+<li>We used python to remove the punctations and some unrelated words(stopwords). The origal stopwords what we are using is <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/stop_words_en.txt" style="color:blue">here</a>.</li>
+</ul>
+
+
+<h3>Problems and New tasks:</h3>
+
+<ul>
+<li><p>The stopwords are not enough. We should also remove the people names, places names, ect. So we summary the unrelated words to the following 9 categories.</p></li>
+<li><p>Spurious data. We firstly remove those spurious data, which contained the identifying e-mail sig- natures used by posters and some data added by system or antivirus software. For example, This message has been scanned for viruses and danger- ous content by MailScanner, and is believed to be clean. We treated this kind of message as the spu- rious data and should be discarded. 2. Links. Then we ignored the url, website links and email links in the posts. Those are has little things with the outage of network.</p></li>
+<li>Punctuations and Numbers. 4. Traceroute measurements. We think these info are useless because only based on the traceroute mea- surements we can figure out the root cause of an incident.5. Stop words(e.g., articles, prepositions and pronouns). We also use a list of stop words obtained from the SMART information retrieval system[5].6. Organization and Human names. These organiza- tion and Human names are no meaning for us to analyze the cause of outage, such as Sprint, AT&amp;T, Gary, Tim, etc.7. Time-related and Place-related words. Such as day, night, NYC, San Jose, etc.8. Some unrelated abbreviation words. Such like ICS, ISP, etc.9. Others. This includes some entities words( like issue,information, etc) or phrase(like in order to) that have nothing with network but can affect the efficiency and accuracy about the NLP(natural lan- guage processing) analysis</li>
+<li>Remove spurious data and stop-words
+In this part, we will firstly try to learn some basic tools.
+What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Task for This Week(03/02-03/09)]]></title>
+    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09%20copy%204/"/>
+    <updated>2015-03-02T17:36:39-05:00</updated>
+    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09 copy 4</id>
+    <content type="html"><![CDATA[<p>Today is our team regular meeting.  <br/>
+In this meeting, we arrage the detail tasks for this week. In this week, we will try to complete the first two steps of <strong>Data Preprocessing</strong>.</p>
+
+<ul>
+<li><p>Collate threads.  <br/>
+We have contacted with the author of our reference paper, one of Phd students in our university, he shared with us some experience about this project and give us some guide, here we want to say thanks for him. We will classify these dataset at the level of threads.</p></li>
+<li><p>Remove spurious data and stop-words
+In this part, we will firstly try to learn some basic tools.
+What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Task for This Week(03/02-03/09)]]></title>
+    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09%20copy%203/"/>
+    <updated>2015-03-02T17:36:39-05:00</updated>
+    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09 copy 3</id>
+    <content type="html"><![CDATA[<p>Today is our team regular meeting.  <br/>
+In this meeting, we arrage the detail tasks for this week. In this week, we will try to complete the first two steps of <strong>Data Preprocessing</strong>.</p>
+
+<ul>
+<li><p>Collate threads.  <br/>
+We have contacted with the author of our reference paper, one of Phd students in our university, he shared with us some experience about this project and give us some guide, here we want to say thanks for him. We will classify these dataset at the level of threads.</p></li>
+<li><p>Remove spurious data and stop-words
+In this part, we will firstly try to learn some basic tools.
+What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Task for This Week(03/02-03/09)]]></title>
+    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09%20copy%202/"/>
+    <updated>2015-03-02T17:36:39-05:00</updated>
+    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09 copy 2</id>
+    <content type="html"><![CDATA[<p>Today is our team regular meeting.  <br/>
+In this meeting, we arrage the detail tasks for this week. In this week, we will try to complete the first two steps of <strong>Data Preprocessing</strong>.</p>
+
+<ul>
+<li><p>Collate threads.  <br/>
+We have contacted with the author of our reference paper, one of Phd students in our university, he shared with us some experience about this project and give us some guide, here we want to say thanks for him. We will classify these dataset at the level of threads.</p></li>
+<li><p>Remove spurious data and stop-words
+In this part, we will firstly try to learn some basic tools.
+What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Task for This Week(03/02-03/09)]]></title>
@@ -29,35 +113,6 @@ In this part, we will firstly try to learn some basic tools.
 What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</p></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Submit Proposal]]></title>
-    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/15/submit-proposal/"/>
-    <updated>2015-02-15T04:52:11-05:00</updated>
-    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/15/submit-proposal</id>
-    <content type="html"><![CDATA[<p>Today We submitted <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/proposal.pdf" style="color:blue">our proposal</a>. But we still had some problems about this project.</p>
-
-<p>Questions about the real-time</p>
-
-<ul>
-<li>Outage mail is sent in real-time by someone?</li>
-<li>If the outage is recovered right now, so what should I do for the diagnostic in this situation?</li>
-<li>what’s the meaning of real-time.</li>
-</ul>
-
-
-<p>This project is based on this Paper <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/PAM2015.pdf" style="color:blue">Internet Outages, the Eyewitness Accounts: Analysis of the Outages Mailing List</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Discuss which project should we choose]]></title>
-    <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/11/discuss-which-project-should-we-choose/"/>
-    <updated>2015-02-11T04:22:11-05:00</updated>
-    <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/02/11/discuss-which-project-should-we-choose</id>
-    <content type="html"><![CDATA[<p>Today We discussed the projects provided by the professor. We went through all the topics and talked about every details for each project. Based on our interests, we finaly picked out topic 5 and topic 8.(Refer to <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/CSE534Projects.pdf" style="color:blue">Projects</a>). Then we found our professor, and talked with her to know what these two projects do. At last, we all took the topic 8(mailing list outage) as our project topic.</p>
 ]]></content>
   </entry>
   

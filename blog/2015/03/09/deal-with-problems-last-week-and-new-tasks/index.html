@@ -5,11 +5,12 @@
 	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
 	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
-	<title>Category: meeting  | CSE534 Fundamental of Network Project</title>
+	<title>Deal with problems last week and New tasks  | CSE534 Fundamental of Network Project</title>
 
 <meta name="author" content="Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun"> 
 
-<meta name="description" content="Category: meeting"> <meta name="keywords" content="">
+<meta name="description" content="What we have done: Combinated the same threads(original posts and reply posts)
+We used python to remove the punctations and some unrelated words( &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="/fundamental_of_network/atom.xml" rel="alternate" title="CSE534 Fundamental of Network Project" type="application/atom+xml">
@@ -124,19 +125,45 @@ $(document).ready(
 
 </header>
 
-	<div id="content" class="inner">
-	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Deal With Problems Last Week and New Tasks</h2>
+	<div class="entry-content"><h3>What we have done:</h3>
+
+<ul>
+<li>Combinated the same threads(original posts and reply posts)</li>
+<li>We used python to remove the punctations and some unrelated words(stopwords). The origal stopwords what we are using is <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/stop_words_en.txt" style="color:blue">here</a>.</li>
+</ul>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2015</h1>
+<h3>Problems and New tasks:</h3>
 
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks/">Deal with problems last week and New tasks</a></h2>
-	<div class="meta">
-		<div class="date">Mar  9</div>
-		
+<ul>
+<li><p>The stopwords are not enough. We should also remove the people names, places names, ect. So we summary the unrelated words to the following 9 categories.</p></li>
+<li><p>Spurious data. We firstly remove those spurious data, which contained the identifying e-mail sig- natures used by posters and some data added by system or antivirus software. For example, This message has been scanned for viruses and danger- ous content by MailScanner, and is believed to be clean. We treated this kind of message as the spu- rious data and should be discarded. 2. Links. Then we ignored the url, website links and email links in the posts. Those are has little things with the outage of network.</p></li>
+<li>Punctuations and Numbers. 4. Traceroute measurements. We think these info are useless because only based on the traceroute mea- surements we can figure out the root cause of an incident.5. Stop words(e.g., articles, prepositions and pronouns). We also use a list of stop words obtained from the SMART information retrieval system[5].6. Organization and Human names. These organiza- tion and Human names are no meaning for us to analyze the cause of outage, such as Sprint, AT&amp;T, Gary, Tim, etc.7. Time-related and Place-related words. Such as day, night, NYC, San Jose, etc.8. Some unrelated abbreviation words. Such like ICS, ISP, etc.9. Others. This includes some entities words( like issue,information, etc) or phrase(like in order to) that have nothing with network but can affect the efficiency and accuracy about the NLP(natural lan- guage processing) analysis</li>
+<li>Remove spurious data and stop-words
+In this part, we will firstly try to learn some basic tools.
+What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</li>
+</ul>
+
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-09T14:36:39-04:00" pubdate data-updated="true"></time></div>
+	
 
 <div class="tags">
 
@@ -145,130 +172,27 @@ $(document).ready(
 </div>
 
 
-	    
-	</div>
-</article>
-
 	
+</div></article>
 
-
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09%20copy%204/">Task for This Week(03/02-03/09)</a></h2>
-	<div class="meta">
-		<div class="date">Mar  2</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
 
-	    
-	</div>
-</article>
-
-	
 
 
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09%20copy%203/">Task for This Week(03/02-03/09)</a></h2>
-	<div class="meta">
-		<div class="date">Mar  2</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09%20copy%202/">Task for This Week(03/02-03/09)</a></h2>
-	<div class="meta">
-		<div class="date">Mar  2</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
-</div>
-
-
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/03/02/task-for-this-week-03-slash-02-03-slash-09/">Task for This Week(03/02-03/09)</a></h2>
-	<div class="meta">
-		<div class="date">Mar  2</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
-</div>
-
-
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/02/15/submit-proposal/">Submit Proposal</a></h2>
-	<div class="meta">
-		<div class="date">Feb 15</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>, <a class='category' href='/fundamental_of_network/blog/categories/milestone/'>milestone</a>, <a class='category' href='/fundamental_of_network/blog/categories/proposal/'>proposal</a>
-
-</div>
-
-
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/fundamental_of_network/blog/2015/02/11/discuss-which-project-should-we-choose/">Discuss which project should we choose</a></h2>
-	<div class="meta">
-		<div class="date">Feb 11</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/fundamental_of_network/blog/categories/meeting/'>meeting</a>
-
-</div>
-
-
-	    
-	</div>
-</article>
-
+</section>
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2015
 
@@ -290,7 +214,10 @@ CSE 534 Fundamental of Network
       var disqus_shortname = 'cse534fundamentalofnetworkproject';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks/';
+        var disqus_url = 'http://zhuguanyu.github.io/fundamental_of_network/blog/2015/03/09/deal-with-problems-last-week-and-new-tasks/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
