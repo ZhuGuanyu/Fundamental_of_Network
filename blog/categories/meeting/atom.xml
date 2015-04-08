@@ -4,7 +4,7 @@
   <title><![CDATA[Category: meeting | CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/categories/meeting/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-04-08T18:48:29-04:00</updated>
+  <updated>2015-04-08T19:01:30-04:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -63,6 +63,9 @@
 </span><span class='line'>
 </span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span>
 </span></code></pre></td></tr></table></div></figure></p>
+
+<p>We also use the <a href="http://www.nltk.org/nltk_data/" style="color:blue">NLTK DATA</a> help us to deal with the text analysis.
+Here are the English names(<a href="http://zhuguanyu.github.io/fundamental_of_network/documents/male.txt" style="color:blue">male</a> and <a href="http://zhuguanyu.github.io/fundamental_of_network/documents/female.txt" style="color:blue">female</a>) provided by NLTK Data.</p>
 ]]></content>
   </entry>
   
