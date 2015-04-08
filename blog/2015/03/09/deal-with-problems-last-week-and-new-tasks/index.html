@@ -137,14 +137,13 @@ $(document).ready(
 
 <h3>Problems and New tasks:</h3>
 
-<ul>
-<li><p>The stopwords are not enough. We should also remove the people names, places names, ect. So we summary the unrelated words to the following 9 categories.</p></li>
-<li><p>Spurious data. We firstly remove those spurious data, which contained the identifying e-mail sig- natures used by posters and some data added by system or antivirus software. For example, This message has been scanned for viruses and danger- ous content by MailScanner, and is believed to be clean. We treated this kind of message as the spu- rious data and should be discarded. 2. Links. Then we ignored the url, website links and email links in the posts. Those are has little things with the outage of network.</p></li>
-<li>Punctuations and Numbers. 4. Traceroute measurements. We think these info are useless because only based on the traceroute mea- surements we can figure out the root cause of an incident.5. Stop words(e.g., articles, prepositions and pronouns). We also use a list of stop words obtained from the SMART information retrieval system[5].6. Organization and Human names. These organiza- tion and Human names are no meaning for us to analyze the cause of outage, such as Sprint, AT&amp;T, Gary, Tim, etc.7. Time-related and Place-related words. Such as day, night, NYC, San Jose, etc.8. Some unrelated abbreviation words. Such like ICS, ISP, etc.9. Others. This includes some entities words( like issue,information, etc) or phrase(like in order to) that have nothing with network but can affect the efficiency and accuracy about the NLP(natural lan- guage processing) analysis</li>
-<li>Remove spurious data and stop-words
-In this part, we will firstly try to learn some basic tools.
-What&rsquo;s we need to learn: <em>SMART information retrieval system, Stanford CoreNLP toolkit, tf-idf</em>. After that, we need try to remove spurious data and stop-words(e.g., articles, prepositions and pronouns).</li>
-</ul>
+<p>The stopwords are not enough. We should also remove the people names, places names, etc. So we summary the unrelated words to the following 9 categories.</p>
+
+<ol>
+<li>Spurious data. 2. Links. Then we ignored the url, website links and email links in the posts.</li>
+<li>Punctuations and Numbers. 4. Traceroute measurements.  5. Stop words. We use a list of stop words obtained from the SMART information retrieval system. 6. Organization and Human names.</li>
+<li>Time-related and Place-related words. Such as day, night, NYC, San Jose, etc.8. Some unrelated abbreviation words. Such like ICS, ISP, etc.9. Others. This includes some entities words( like issue,information, etc) or phrase(like in order to) that have nothing with network but can affect the efficiency and accuracy about the NLP(natural lan- guage processing) analysis</li>
+</ol>
 
 </div>
 
