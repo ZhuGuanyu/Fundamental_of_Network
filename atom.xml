@@ -4,7 +4,7 @@
   <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-04-08T17:05:28-04:00</updated>
+  <updated>2015-04-08T17:09:10-04:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -33,7 +33,8 @@
 <ol>
 <li>Spurious data.</li>
 <li>Links. Then we ignored the url, website links and email links in the posts.</li>
-<li>Punctuations and Numbers.</li>
+<li>Punctuations and Numbers.    <br/>
+<!-- more --></li>
 <li>Traceroute measurements.</li>
 <li>Stop words. We use a list of stop words obtained from the SMART information retrieval system.</li>
 <li>Organization and Human names.</li>
