@@ -4,7 +4,7 @@
   <title><![CDATA[CSE534 Fundamental of Network Project]]></title>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/atom.xml" rel="self"/>
   <link href="http://zhuguanyu.github.io/fundamental_of_network/"/>
-  <updated>2015-05-07T02:26:41-04:00</updated>
+  <updated>2015-05-07T02:34:59-04:00</updated>
   <id>http://zhuguanyu.github.io/fundamental_of_network/</id>
   <author>
     <name><![CDATA[Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun]]></name>
@@ -18,7 +18,7 @@
     <link href="http://zhuguanyu.github.io/fundamental_of_network/blog/2015/05/07/video-for-demo/"/>
     <updated>2015-05-07T02:18:07-04:00</updated>
     <id>http://zhuguanyu.github.io/fundamental_of_network/blog/2015/05/07/video-for-demo</id>
-    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% video url/to/video [url/to/video] [url/to/video] [width height] [url/to/poster] %}</p>
+    <content type="html"><![CDATA[<p>&lt; iframe title=&ldquo;Project Demo&rdquo; width=&ldquo;480&rdquo; height=&ldquo;390&rdquo; src=&ldquo;<a href="https://youtu.be/tlc_QVkEqV4">https://youtu.be/tlc_QVkEqV4</a>&rdquo; frameborder=&ldquo;0&rdquo; allowfullscreen>&lt; /iframe></p>
 ]]></content>
   </entry>
   
